@@ -1,0 +1,239 @@
+body {
+  background-color: PINK;
+  color: #0d1137;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  align-content: center;
+}
+img {
+  height: 225px;
+  width: 225px;
+}
+h1{
+  font-family: Montserrat-black;
+  font-size: 5rem;
+  font-weight: bolder;
+  display: inline-block;
+}
+h2{
+  text-align: center;
+  color: white;
+  font-family: Montserrat-black;
+  font-size: 2.2rem;
+font-weight: bold;
+}
+h3 {
+  text-align: center;
+  color: #e52165;
+  font-family: Montserrat-black;
+  font-size: 3rem;
+font-weight: bold;
+}
+h4{
+  text-align: center;
+  color: white;
+  font-family: Montserrat-black;
+  font-size: 2rem;
+  font-weight: bold;
+  display: inline-block;
+}
+h5{
+  text-align: center;
+  color: #e52165;
+  font-family: Montserrat-black;
+  font-size: 1rem;
+  font-weight: bold;
+}
+h6{
+  text-align: center;
+  color: #e52165;
+  font-family: Montserrat-black;
+  font-size: 2rem;
+  font-weight: bold;
+  display: inline-block;
+}
+p {
+  display: inline-block;
+  font-family: Ubuntu;
+}
+div {
+  display: inline-block;
+}
+hr{
+  width: 5%;
+  margin: 20px auto;
+  size: 50%
+  border: 30%;
+  border-top:1px dotted #e52165;
+  border-radius: 0;
+  border-width: medium;
+  border-spacing: 30px
+}
+#navbarTogglerDemo01 {
+  color: white;
+  text-align: left;
+  margin-left: 10%;
+}
+.navigation {
+  background-color: #e52165;
+  color: white;
+  font-weight: bold;
+}
+.navbar-brand, .navbar-brand:hover {
+  color: white;
+  margin-left: 10%;
+}
+.nav-link{
+  margin-right: 10%;
+}
+.nav-list {
+  margin-right: 10%;
+}
+.navbar-toggler {
+  margin-right: 10%;
+
+}
+
+.header-container{
+  background-color: #e52165;
+  color: white;
+  display: inline-block;
+  width: 100%;
+  padding: 0;
+  margin: 0
+
+}
+ .head-content {
+   display: inline-block;
+   text-align: center;
+   color: white;
+ }
+.download-btn{
+  margin-top: 2rem;
+}
+
+.phone {
+  height: 300px;
+  width: 30%;
+  width: auto;
+  position: relative;
+}
+.features{
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  width: auto;
+}
+.feature-content{
+  padding: 0 2rem;
+}
+.feature-icons {
+  color: #e52165;
+}
+.Cakes-containers {
+  padding: 2rem 8.5rem;
+}
+.carousel{
+  background-color: #e52165;
+  width: 100%;
+}
+.d-block, {
+  position: relative;
+  display: inline-block;
+  box-sizing;
+  height: 225px;
+  width: 5rem;
+  margin: 2rem;
+}
+.testimonial{
+  color: white;
+  margin: 40px 0;
+}
+.testimonial-image{
+  height: 225px;
+  width: 225px;
+  border-radius: 100%;
+  margin: 20px 20px 0;
+}
+.Pricing{
+  margin: 2% 10%;
+  text-align: center;
+  width: 100%;
+}
+.wedding{
+  background-color: #e52165;
+}
+.price-card {
+  margin: 2rem 0;
+}
+.btn-lg{
+  width: 50%;
+}
+.card {
+  display: inline-block;
+  line-height: 0;
+  width: auto;
+  padding: 20px;
+}
+.card-img-top{
+  border-radius: 100%;
+  margin: ;
+  width: 15rem;
+  height: 15rem;
+}
+.btn{
+background-color: #e52165;
+color: #fff;
+width: 140px;
+}
+.btn-light:hover {
+  background-color: pink;
+  color: #e52165;
+}
+.contact-img{
+  width: auto;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+}
+.cake {
+  width: 20rem;
+  height: 20rem;
+  position: relative;
+  margin: 2rem 2rem 0;
+  border-radius: 100%;
+  float: left;
+  text-align: center;
+}
+.message{
+  text-align: left;
+  display: inline-block;
+  width: auto;
+}
+.contact-us{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+.btn-send{
+  text-align: center;
+}
+.footer{
+  background-color: #e52165;
+  color: white;
+  width: 100%;
+}
+.footer-icons {
+  padding: 10px 0;
+  margin: 10px 0;
+}
+/* @media all and (max-width: 567px) {
+  .price-card {
+    column-count: 1;
+  }
+} */
