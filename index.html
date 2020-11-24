@@ -19,16 +19,16 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
         <ul class="nav-list navbar-nav ml-auto">
           <li class="nav-item">
-             <a class="nav-link" href="cake-price">Cakes</a>
+             <a class="nav-link" href="#cake-price">Cakes</a>
           </li>
           <li class="nav-item">
-             <a class="nav-link" href="">Sellers</a>
+             <a class="nav-link" href="#contact">Contact</a>
           </li>
           <li class="nav-item">
-             <a class="nav-link" href="contact"">Contact</a>
+             <a class="nav-link" href="#contact">Sellers</a>
           </li>
           <li class="nav-item">
-             <a class="nav-link" href="">Download</a>
+             <a class="nav-link" href="#about">About</a>
           </li>
         </ul>
       </div>
@@ -37,7 +37,7 @@
         <div class="head-content">
           <h1>Cake Plug</h1>
           <br>
-          <button class="btn-light btn btn-lg download-btn" type="button" name="">Download</button>
+          <button class="btn-light btn btn-lg" id="download-btn" type="button" name="">Download</button>
         </div>
         <div class="head-content">
           <img class="phone" src="image/phone.png" alt="">
@@ -48,37 +48,39 @@
     <br>
 
     <!-- features -->
-    <div class="features">
-      <table>
-        <th>
-          <i class="fas fa-users-cog fa-3x feature-icons"></i>
-        </th>
-        <th>
-          <i class="fas fa-birthday-cake fa-3x feature-icons"></i>
-        </th>
-        <th>
-          <i class="far fa-thumbs-up fa-3x feature-icons"></i>
-        </th>
-        <th>
-          <i class="far fa-kiss-wink-heart fa-3x feature-icons"></i>
-        </th>
-        <tbody>
-          <td class="feature-content"><h6>Easy to use</h6></td>
-          <td class="feature-content"><h6>Quality Cakes</h6></td>
-          <td class="feature-content"><h6>Guaranteed Products</h6></td>
-          <td class="feature-content"><h6>Elite Cakeshop</h6></td>
-        </tbody>
-        <tfoot>
-          <td class="feature-content"><p>Our website is so easy to use, <br> even your kids can use it.</p></td>
-          <td class="feature-content"><p>We sell quality cakes skillfully designed <br> by the best cakesmiths.</p></td>
-          <td class="feature-content"><p>You get exactly the cake you ordered.<br> <em>100%</em> Refund policy </p></td>
-          <td class="feature-content"><p>We connect you with the best cakesmiths <br> in all states in Nigeria.</p></td>
-        </tfoot>
-      </table>
+    <div class="row features" id="about">
+      <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+        <i class="fas fa-users-cog fa-1.5x feature-icons"></i>
+        <br>
+        <h6>Easy to use</h6>
+        <br>
+        <p>Our website is so easy to use, even your kids can use it.</p>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+        <i class="fas fa-birthday-cake fa-1.5x feature-icons"></i>
+        <br>
+        <h6>Quality Cakes</h6>
+        <br>
+        <p>We sell quality cakes skillfully designed by the best cakesmiths.</p>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+        <i class="far fa-thumbs-up fa-1.5x feature-icons"></i>
+        <br>
+        <h6>Guaranteed Products</h6>
+        <br>
+        <p>You get exactly the cake you ordered. <em>100%</em> Refund policy </p>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+        <i class="far fa-kiss-wink-heart fa-1.5x feature-icons"></i>
+        <br>
+        <h6>Elite Cakeshop</h6>
+        <br>
+        <p>We connect you with the best cakesmiths in all states in Nigeria.</p>
+      </div>
     </div>
-    <br>
     <hr>
-    <br>
+
+
 <!-- testimonial -->
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval='5000'>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -90,18 +92,18 @@
           <span class="sr-only">Next</span>
         </a>
         <div class="carousel-inner testimonial">
-          <div class="carousel-item active">
-            <h2>Get exactly what you ordered for! <br> My order was delivered right on time. Thanks alot Caplug</h2>
+          <div class="carousel-item testimonial-item">
+            <h2>Get exactly what you ordered for! My order was delivered right on time.</h2>
             <img src="image/image1.jpg" class="testimonial-image" alt="">
             <em>Chibaby Ada</em>
           </div>
-          <div class="carousel-item">
-            <h2>When you think of beautiful and affordable cakes,<br> you think of CakePlug.</h2>
+          <div class="carousel-item testimonial-item">
+            <h2>When you think of beautiful and affordable cakes, you think of CakePlug.</h2>
             <img src="image/image11.jpg" class="testimonial-image" alt="...">
             <em>Angel Kate</em>
           </div>
-          <div class="carousel-item">
-            <h2>The best plug for your cake in Nigeria,<br> Quality at its peak. Thumbs up CakePlug</h2>
+          <div class="carousel-item active testimonial-item">
+            <h2>The best plug for your cake in Nigeria, Quality at its peak. Thumbs up CakePlug</h2>
             <img src="image/customers.png" class="testimonial-image" alt="...">
             <em>Fred Hakkins</em>
           </div>
@@ -115,8 +117,8 @@
     <h3 id="cake-price">Pricing</h3>
     <br>
     <h6>Birthday Cakes</h6>
-        <div class="row Cakes-containers">
-          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+        <div class="row cake-holder Cakes-containers">
+          <div class="cake-holder col-lg-4 col-md-6 col-sm-12 col-xs-12">
             <div class="card price-card">
               <img src="image/chocolate-cake.jpg" class="card-img-top" alt="..."><br>
               <div class="card-body">
@@ -126,9 +128,9 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+          <div class="cake-holder col-lg-4 col-md-6 col-sm-12 col-xs-12">
             <div class="card price-card">
-              <img src="image/butter-cake.jpg" class="card-img-top" alt="..."><br><br><br>
+              <img src="image/butter-cake.jpg" class="card-img-top" alt="..."><br>
               <div class="card-body">
                 <h5 class="card-title">Butter Cake</h5>
                 <p class="card-text">Price #10,000</p><br>
@@ -136,9 +138,9 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+          <div class="cake-holder col-lg-4 col-md-6 col-sm-12 col-xs-12">
             <div class="card price-card">
-              <img src="image/red-velvet.jpg" class="card-img-top" alt="..."><br><br>
+              <img src="image/red-velvet.jpg" class="card-img-top" alt="..."><br>
               <div class="card-body">
                 <h5 class="card-title">Red Velvet Cake</h5>
                 <p class="card-text">Price #10,000</p><br>
@@ -146,7 +148,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+          <div class="cake-holder col-lg-4 col-md-6 col-sm-12 col-xs-12">
             <div class="card price-card">
               <img src="image/sponge-cake.jpg" class="card-img-top" alt="..."><br>
               <div class="card-body">
@@ -156,7 +158,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+          <div class="cake-holder col-lg-4 col-md-6 col-sm-12 col-xs-12">
             <div class="card price-card">
               <img src="image/vanilla.jpg" class="card-img-top" alt="..."><br>
               <div class="card-body">
@@ -166,7 +168,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+          <div class="cake-holder col-lg-4 col-md-6 col-sm-12 col-xs-12">
             <div class="card price-card">
               <img src="image/ice-cream-cake.jpg" class="card-img-top" alt="..."><br>
               <div class="card-body">
@@ -178,11 +180,11 @@
           </div>
         </div>
           <hr>
-      <div class="wedding Cakes-containers">
+      <div class="cake-holder wedding Cakes-containers">
         <h4>Wedding Cake</h4>
-        <div class="row">
-          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-            <div class="card price-card">
+        <div class="row cake-holder">
+          <div class="cake-holder col-lg-4 col-md-6 col-sm-12 col-xs-12">
+            <div class="card price-card2">
               <img src="image/fondant-icing.jpg" class="card-img-top" alt="..."><br>
               <div class="card-body">
                 <h5 class="card-title">Fondant Icing Cake</h5>
@@ -191,51 +193,51 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-            <div class="card price-card">
+          <div class="cake-holder col-lg-4 col-md-6 col-sm-12 col-xs-12">
+            <div class="card price-card2">
               <img src="image/butter-cake-5steps.jpg" class="card-img-top" alt="..."><br>
               <div class="card-body">
-                <h5 class="card-title">Butter Cake 5steps</h5>
+                <h5 class="card-title">Butter Cake</h5>
                 <p class="card-text">Price #30,000</p><br>
                 <a href="#" class="btn btn-light btn-lg">BUY</a>
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-            <div class="card price-card">
+          <div class="cake-holder col-lg-4 col-md-6 col-sm-12 col-xs-12">
+            <div class="card price-card2">
               <img src="image/chiffon-cake-4steps.jpg" class="card-img-top" alt="..."><br>
               <div class="card-body">
-                <h5 class="card-title">Chiffon Cake 4steps</h5>
+                <h5 class="card-title">Chiffon Cake</h5>
                 <p class="card-text">Price #30,000</p><br>
                 <a href="#" class="btn btn-light btn-lg">BUY</a>
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-            <div class="card price-card">
+          <div class="cake-holder col-lg-4 col-md-6 col-sm-12 col-xs-12">
+            <div class="card price-card2">
               <img src="image/vanilla-cake-3steps.jpg" class="card-img-top" alt="..."><br>
               <div class="card-body">
-                <h5 class="card-title">Vanilla Cake 3steps</h5>
+                <h5 class="card-title">Vanilla Cake</h5>
                 <p class="card-text">Price #30,000</p><br>
                 <a href="#" class="btn btn-light btn-lg">BUY</a>
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-            <div class="card price-card">
+          <div class="cake-holder col-lg-4 col-md-6 col-sm-12 col-xs-12">
+            <div class="card price-card2">
               <img src="image/ice-cream-cake-3steps.jpg" class="card-img-top" alt="..."><br>
               <div class="card-body">
-                <h5 class="card-title">Ice Cream Cake 3steps</h5>
+                <h5 class="card-title">Ice Cream Cake</h5>
                 <p class="card-text">Price #30,000</p><br>
                 <a href="#" class="btn btn-light btn-lg">BUY</a>
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-            <div class="card price-card">
+          <div class="cake-holder col-lg-4 col-md-6 col-sm-12 col-xs-12">
+            <div class="card price-card2">
               <img src="image/strawberry-cake-3steps.jpg" class="card-img-top" alt="..."><br>
               <div class="card-body">
-                <h5 class="card-title">Strawberry Cake 3steps</h5>
+                <h5 class="card-title">Strawberry Cake</h5>
                 <p class="card-text">Price #30,000</p><br>
                 <a href="#" class="btn btn-light btn-lg">BUY</a>
               </div>
@@ -246,31 +248,30 @@
         <hr>
         <br>
     <div class="contact-us" id="contact">
-      <h3>Contact Us</h3>
-      <div class="contact-img">
+      <h3 class="contact-us-text">Contact Us</h3>
         <img class="cake" src="image/happy-customer.jpg" alt="">
-      </div>
       <form class="message" action="index.html" method="post">
         <label for="">Name</label><br>
-        <input type="text" name="" value=""><br>
+        <input class="text-box" type="text" name="" value=""><br>
         <label for="">Phone Number</label><br>
-        <input type="text" name="" value=""><br>
+        <input class="text-box" type="text" name="" value=""><br>
         <label for="">Your Message</label><br>
-        <textarea name="" rows="4" cols="40"></textarea><br>
+        <textarea class="text-box" name="" rows="4" cols="24"></textarea><br>
         <button class="btn btn-light btn-lg btn-send" type="button" name="button">Send</button><br>
       </form>
     </div>
     <hr>
       <div class="footer">
         <div class="footer-icon">
-          <i class="footer-icons fab fa-facebook fa-3x"></i>
-          <i class="footer-icons fab fa-whatsapp fa-3x"></i>
-          <i class="footer-icons fab fa-instagram fa-3x"></i>
-          <i class="footer-icons fab fa-twitter fa-3x"></i>
-          <i class="footer-icons fab fa-telegram fa-3x"></i>
+          <a href="mailto: biochris43@gmail.com"><i class="footer-icons email far fa-envelope fa-1.5x class="text-box""></i></a>
+          <i class="footer-icons fab fa-facebook fa-1.5x"></i>
+          <i class="footer-icons fab fa-whatsapp fa-1.5x"></i>
+          <i class="footer-icons fab fa-instagram fa-1.5x"></i>
+          <i class="footer-icons fab fa-twitter fa-1.5x"></i>
+          <i class="footer-icons fab fa-telegram fa-1.5x"></i>
         </div>
             <br>
-            <p>copyright Chris Martins 2020.</p>
+            <p class="footer-note">© 2020 Chris Martins. All rights reserved.</p>
       </div>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>

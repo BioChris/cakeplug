@@ -1,11 +1,13 @@
 body {
-  background-color: PINK;
+  background-color: white;
   color: #0d1137;
   text-align: center;
   width: 100%;
   margin: 0 auto;
   padding: 0;
-  align-content: center;
+  position: relative;
+  line-height: 1;
+  overflow-x: hidden;
 }
 img {
   height: 225px;
@@ -13,50 +15,54 @@ img {
 }
 h1{
   font-family: Montserrat-black;
-  font-size: 5rem;
+  font-size: 3rem;
   font-weight: bolder;
   display: inline-block;
+  font-stretch: extra-condensed;
+  margin-top: 1rem;
 }
 h2{
   text-align: center;
   color: white;
   font-family: Montserrat-black;
-  font-size: 2.2rem;
-font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-weight: bold;
 }
 h3 {
   text-align: center;
   color: #e52165;
   font-family: Montserrat-black;
-  font-size: 3rem;
+  font-size: 2rem;
 font-weight: bold;
 }
 h4{
   text-align: center;
   color: white;
   font-family: Montserrat-black;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
   display: inline-block;
 }
 h5{
   text-align: center;
-  color: #e52165;
   font-family: Montserrat-black;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 h6{
   text-align: center;
   color: #e52165;
   font-family: Montserrat-black;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
   display: inline-block;
 }
 p {
   display: inline-block;
   font-family: Ubuntu;
+  font-stretch: condensed;
+  line-height: 1.5;
 }
 div {
   display: inline-block;
@@ -71,44 +77,51 @@ hr{
   border-width: medium;
   border-spacing: 30px
 }
+
+/* navigation section */
 #navbarTogglerDemo01 {
   color: white;
   text-align: left;
-  margin-left: 10%;
+  margin-left: 5%;
 }
 .navigation {
   background-color: #e52165;
   color: white;
   font-weight: bold;
+  width: 100%;
+  z-index: 1;
+  overflow-x: hidden;
 }
 .navbar-brand, .navbar-brand:hover {
   color: white;
-  margin-left: 10%;
+  margin-left: 5%;
 }
 .nav-link{
-  margin-right: 10%;
+  margin-right: 5%;
 }
 .nav-list {
-  margin-right: 10%;
+  margin-right: 5%;
 }
 .navbar-toggler {
-  margin-right: 10%;
+  margin-right: 5%;
 
 }
 
+/* header section */
 .header-container{
   background-color: #e52165;
   color: white;
   display: inline-block;
   width: 100%;
   padding: 0;
-  margin: 0
-
+  margin: 0;
+  overflow-x: hidden;
 }
  .head-content {
    display: inline-block;
    text-align: center;
    color: white;
+   width: auto;
  }
 .download-btn{
   margin-top: 2rem;
@@ -119,121 +132,174 @@ hr{
   width: 30%;
   width: auto;
   position: relative;
+  margin: 2rem 0;
 }
+
+/* features section */
 .features{
   display: inline-block;
   position: relative;
   text-align: center;
   margin: 0;
   padding: 0;
-  width: auto;
-}
-.feature-content{
-  padding: 0 2rem;
+  width: 100%;
+  text-align: center;
+  padding: 0 3rem 0 3rem;
+  overflow-x: hidden;
 }
 .feature-icons {
   color: #e52165;
+  padding: 5px 5px;
+  margin: 5px 5px;
 }
-.Cakes-containers {
-  padding: 2rem 8.5rem;
+
+
+/* testimonial section */
+
+.testimonial{
+  color: white;
+  margin: 40px 0;
+  width: 100%;
+  text-align: center;
+  overflow-x: hidden;
+}
+.testimonial-item {
+  text-align: center;
+  padding: 0 3rem 0 3rem;
+}
+.testimonial-image{
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  margin: 20px 0 0;
+}
+
+/* pricing section */
+.Pricing{
+  text-align: center;
+  width: 100%;
+  overflow-x: hidden;
+}
+.cakes-container {
+  margin: 0;
+  padding: 0;
+}
+.cake-holder {
+  margin: 0;
+  padding: 0;
 }
 .carousel{
   background-color: #e52165;
   width: 100%;
-}
-.d-block, {
-  position: relative;
-  display: inline-block;
-  box-sizing;
-  height: 225px;
-  width: 5rem;
-  margin: 2rem;
-}
-.testimonial{
-  color: white;
-  margin: 40px 0;
-}
-.testimonial-image{
-  height: 225px;
-  width: 225px;
-  border-radius: 100%;
-  margin: 20px 20px 0;
-}
-.Pricing{
-  margin: 2% 10%;
-  text-align: center;
-  width: 100%;
+  overflow-x: hidden;
 }
 .wedding{
   background-color: #e52165;
+  text-align: center;
+  width: 100%;
+  padding-top: 2rem;
+  overflow-x: hidden;
 }
 .price-card {
-  margin: 2rem 0;
+  background-color: #e52165;
+  color: white;
+  margin: 2rem 0 2rem 0;
+  text-align: center;
+  padding: 2rem 0 2rem 0;
+  border-radius: 5%;
 }
-.btn-lg{
-  width: 50%;
+.price-card2 {
+  background-color: white;
+  color: #e52165;
+  margin: 2rem 0 2rem 0;
+  text-align: center;
+  padding: 2rem 0 2rem 0;
+  border-radius: 5%;
+}
+.card-title, .card-text {
+  padding-bottom: 1rem;
 }
 .card {
   display: inline-block;
   line-height: 0;
   width: auto;
-  padding: 20px;
 }
 .card-img-top{
   border-radius: 100%;
-  margin: ;
-  width: 15rem;
-  height: 15rem;
+  margin: 0 1.5rem;
+  width: 10rem;
+  height: 10rem;
 }
+
+/* buttons section */
 .btn{
 background-color: #e52165;
 color: #fff;
-width: 140px;
+width: 100px;
 }
 .btn-light:hover {
-  background-color: pink;
+  background-color: white;
   color: #e52165;
 }
-.contact-img{
-  width: auto;
-  align-items: center;
+#download-btn {
   text-align: center;
-  position: relative;
-  display: inline-block;
+  font-size-adjust: 1rem;
+  padding: 8px 16px;
+  vertical-align: middle;
+  width: auto;
+  margin-top: 2rem;
+}
+
+
+/* contact us section */
+.contact-us-text {
+  padding-bottom: 2rem;
 }
 .cake {
-  width: 20rem;
-  height: 20rem;
-  position: relative;
-  margin: 2rem 2rem 0;
-  border-radius: 100%;
-  float: left;
-  text-align: center;
+  width: 13rem;
+  height: 13rem;
+  margin-right: 1rem;
+  border-radius: 10%;
 }
 .message{
   text-align: left;
   display: inline-block;
-  width: auto;
+  width: 188px;
+  position: relative;
+  vertical-align: bottom;
+  margin-right: 26px;
 }
 .contact-us{
   display: inline-block;
   width: 100%;
   text-align: center;
-}
-.btn-send{
-  text-align: center;
+  overflow-x: hidden;
 }
 .footer{
   background-color: #e52165;
   color: white;
   width: 100%;
+  overflow-x: hidden;
 }
 .footer-icons {
-  padding: 10px 0;
-  margin: 10px 0;
+  padding: 5px 5px;
+  margin: 5px 5px;
 }
-/* @media all and (max-width: 567px) {
-  .price-card {
-    column-count: 1;
-  }
-} */
+.footer-icons:hover {
+  color: pink;
+}
+.email {
+  color: white;
+}
+.footer-note {
+  line-height: 1;
+  font-size: 8px;
+}
+.text-box{
+  border-radius: 4px;
+  border-color:  #e52165;
+}
+@media query {
+
+
+}
