@@ -260,20 +260,26 @@ width: 100px;
   height: 13rem;
   margin-right: 1rem;
   border-radius: 10%;
+  padding-bottom: 1rem;
 }
 .message{
   text-align: left;
   display: inline-block;
-  width: 188px;
+  width: 13rem;
   position: relative;
   vertical-align: bottom;
   margin-right: 26px;
+  margin-top: 0.5rem;
 }
 .contact-us{
   display: inline-block;
   width: 100%;
   text-align: center;
   overflow-x: hidden;
+}
+.contact-us-text {
+  padding-bottom: 0;
+  margin-bottom: 1rem;
 }
 .footer{
   background-color: #e52165;
@@ -282,8 +288,8 @@ width: 100px;
   overflow-x: hidden;
 }
 .footer-icons {
-  padding: 5px 5px;
-  margin: 5px 5px;
+  padding: 2px 2px;
+  margin: 1rem 2px 2px;
 }
 .footer-icons:hover {
   color: pink;
@@ -299,7 +305,16 @@ width: 100px;
   border-radius: 4px;
   border-color:  #e52165;
 }
-@media query {
 
-
+@media all and (max-width: 572px) {
+  .cake{
+      margin: 0 0 1rem;
+      padding: 0;
+  }
+  .message {
+    margin: 0;
+  }
+  .label {
+    margin-top: 0.5rem;
+  }
 }
